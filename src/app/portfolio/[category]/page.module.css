@@ -1,0 +1,49 @@
+.container {
+  
+}
+
+.catTitle {
+  color: #53c28b;
+}
+
+.item {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.item:nth-child(2n + 1) { /* this means that if the child number is even number is an even number, rever flex direction*/
+  flex-direction: row-reverse;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imgContainer {
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+
+} 
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.desc {
+  font-size: 20px;
+  color: #bbb;
+}
+
